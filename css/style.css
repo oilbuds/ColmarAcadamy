@@ -7,6 +7,7 @@ nav {
     align-items: center;
 }
 nav .nav-left{
+    margin-bottom: 20px;
     margin-top: 20px;
     top: 0;
     height: 64px;
@@ -84,4 +85,87 @@ nav ul a {
     background-color: #3f3e3e;
     color: white;
     font-size: 43px;
+}
+
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quoteimg {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.main-quote h1 {
+    color: #3f3e3e;
+    margin-top: 32px;
+    margin-left: 24px;
+    font-size: 4rem;
+}
+
+.quote {
+    text-align: center;
+    margin-right: 24px;
+    color: #3f3e3e;
+    font-size: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.author {
+    margin-top: 24px;
+    margin-right: 24px;
+    color: #3f3e3e;
+    font-size: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.info-list {
+    color: #3f3e3e;
+    margin-bottom: 32px;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+}
+
+.info-item {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    border-left: 1px solid #d2d2d2;
+}
+
+.info-item img {
+  margin-right: 16px;
+}
+
+.left-side, .info-list {
+  flex: 1;
+}
+
+.info-text h2 {
+    margin-left: 24px;
+    font-size: 2rem;
+}
+
+.info-text p {
+    margin-left: 24px;
+    font-size: 1.5rem;
+}
+
+.info-text a {
+    margin-left: 24px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
 }
